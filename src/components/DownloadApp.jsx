@@ -32,11 +32,11 @@ const DownloadApp = () => {
                     />
                     </div> */}
                     <div className="flex gap-4 items-center mt-3">
-  <img
+  <a href="https://play.google.com/store/apps/details?id=com.tajammul_customer&pcampaignid=web_share"><img
     src={GoogleButton}
     alt=""
     className="h-[2.8rem] transition-transform duration-300 transform hover:scale-110 hover:shadow-md  cursor-pointer"
-  />
+  /></a>
   <img
     src={AppleButton}
     alt=""

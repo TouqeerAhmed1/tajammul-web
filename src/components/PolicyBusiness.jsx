@@ -67,7 +67,7 @@ const PolicyBusiness = () => {
       <h2 className="text-xl font-bold mb-2">7. Contact Information</h2>
       <p className="my-2">
         If you have any questions or concerns about this Privacy Policy, please contact us at{' '}
-        <a className="text-blue-500" href="mailto:contact@tajammulapp.com">contact@tajammulapp.com</a>.
+        <a className="text-blue-500" href="mailto:contact@tajammul.app">contact@tajammul.app</a>.
       </p>
 
       <p className="my-4">

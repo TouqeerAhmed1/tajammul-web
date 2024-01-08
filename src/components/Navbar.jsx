@@ -62,25 +62,25 @@ const Navbar = () => {
 
           <div className="flex gap-x-3 items-center">
             <a
-              href="#"
+              href="https://www.facebook.com/tajammulapp/"
               className="hover:text-white hover:scale-110 transition-transform "
             >
               <FaFacebookF className="text-[#F16427] text-sm lg:text-lg cursor-pointer hover:text-blue-400 " />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/tajammul.app"
               className="hover:text-white hover:scale-110 transition-transform"
             >
               <FaInstagram className="text-[#F16427] text-sm lg:text-lg cursor-pointer hover:text-purple-500" />
             </a>
             <a
-              href="#"
+              href="https://twitter.com/TajammulApp"
               className="hover:text-white hover:scale-110 transition-transform"
             >
               <FaTwitter className="text-[#F16427] text-sm lg:text-lg cursor-pointer hover:text-blue-500" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/tajammul-app/"
               className="hover:text-white hover:scale-110 transition-transform"
             >
               <FaLinkedinIn className="text-[#F16427] text-sm lg:text-lg cursor-pointer hover:text-blue-700" />

@@ -19,9 +19,9 @@ const Footer = () => {
         <p className="text-[#273b60] font-extrabold text-3xl mb-4 pt-[1rem]">
           Get In Touch
         </p>
-        <p className="text-[#273B60]   max-sm:text-[7px] text-[0.7rem] relative top-[1rem] sm:top-[1.5rem]">
-          info@tajammul.app
-        </p>
+        <a href="mailto:contact@tajammul.app" className="text-[#00000]   max-sm:text-[7px] text-[0.7rem] relative top-[1rem] sm:top-[1.5rem]">
+          contact@tajammul.app
+        </a>
         <img
           src={AtTheRate}
           className="text-center h-[4rem] flex justify-center relative top-[-3rem] items-center"
@@ -39,7 +39,7 @@ const Footer = () => {
             <p className="font-bold text-lg mb-2 sm:text-base max-sm:text-[14px]">
               Contact Us
             </p>
-            <p className="text-xs max-sm:text-[10px] hover:text-[#6d96e0] transition-all ease-in-out cursor-pointer">@ info@tajammul.pk</p>
+            <p className="text-xs max-sm:text-[10px] hover:text-[#6d96e0] transition-all ease-in-out cursor-pointer">@ contact@tajammul.app</p>
           </div>
 
           <div className="flex flex-col max-sm:pt-[1rem]">
@@ -69,36 +69,41 @@ const Footer = () => {
           <div className="max-sm:pt-[1rem]">
             <p className="mb-6 font-bold text-lg max-sm:text-[14px]">Social Contacts</p>
             <div className="flex gap-x-2 items-center flex-wrap justify-between">
+              <a href="https://www.facebook.com/tajammulapp/">
               <div
                 style={{ border: "2px solid white" }}
                 className="w-[1.5rem] hover:bg-[#6d96e0] cursor-pointer h-[1.5rem] rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaFacebookF size={14} />
-              </div>
+              </div></a>
+              <a href="https://twitter.com/TajammulApp">
               <div
                 style={{ border: "2px solid white" }}
                 className="w-[1.5rem] h-[1.5rem] hover:bg-[#6d96e0] cursor-pointer rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaTwitter size={14} />
-              </div>
+              </div></a>
+              <a href="https://www.linkedin.com/company/tajammul-app/">
               <div
                 style={{ border: "2px solid white" }}
                 className="w-[1.5rem] h-[1.5rem] hover:bg-[#6d96e0] cursor-pointer rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaLinkedinIn size={14} />
-              </div>
+              </div></a>
+              <a href="https://www.instagram.com/tajammul.app">
               <div
                 style={{ border: "2px solid white" }}
                 className="w-[1.5rem] h-[1.5rem] hover:bg-[#6d96e0] cursor-pointer rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaInstagram size={14} />
-              </div>
+              </div></a>
+              <a href="https://www.youtube.com/@TajammulApp">
               <div
                 style={{ border: "2px solid white" }}
                 className="w-[1.5rem] h-[1.5rem] hover:bg-[#6d96e0] cursor-pointer rounded-full flex justify-center items-center max-sm:w-[1.3rem] max-sm:h-[1.3rem]"
               >
                 <FaYoutube size={14} />
-              </div>
+              </div></a>
             </div>
           </div>
         </div>
@@ -115,7 +120,7 @@ const Footer = () => {
         {/* FOOTER COPYRIGHT  */}
         <div className=" absolute bottom-2">
           <p className="text-[#273B60] text-center w-screen text-sm max-sm:text-[12px]">
-            Copyright © 2022 tajammul. All Rights Reserved
+            Copyright © 2024 tajammul.app All Rights Reserved
           </p>
         </div>
       </div>

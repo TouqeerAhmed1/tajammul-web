@@ -22,10 +22,10 @@ const ServiceOfferings = () => {
         <div className="lg:pl-[2rem] pl-[1rem] flex-1 pt-[8rem] pb-[8rem] md:pt-0 md:pb-0">
           <h1 className="text-3xl font-bold mb-2 text-[#F16427]">Services</h1>
           <h1 className="text-4xl mb-2 font-bold text-[#FDCE0C]">Offerings</h1>
-          <p className="text-[#273b60] text-sm mb-2 lg:w-[80%] tracking-wide w-[97%] sm:w-[90%] m-auto sm:m-0">Are you tired of going to service stations only to discover that they are all full and having to return without getting your services?Tajammul.pk saves the day by allowing you to pre-book your services based on their availability. We keep an updated calendar so that we can provide you with the best possible services. You can now book a time slot and get your services. We offer salon, clinical, catering, decoration, auto mechanic, and plumbing services, as well as the option of hiring labor or maids for home services. Save yourself hours of waiting in lines by scheduling your services according to your availability.</p>
+          <p className="text-[#273b60] text-sm mb-2 lg:w-[80%] tracking-wide w-[97%] sm:w-[90%] m-auto sm:m-0">Are you tired of going to service stations only to discover that they are all full and having to return without getting your services?Tajammul.app saves the day by allowing you to pre-book your services based on their availability. We keep an updated calendar so that we can provide you with the best possible services. You can now book a time slot and get your services. We offer salon, clinical, catering, decoration, auto mechanic, and plumbing services, as well as the option of hiring labor or maids for home services. Save yourself hours of waiting in lines by scheduling your services according to your availability.</p>
         </div>
 
-        <div className="flex-1 relative flex justify-center  items-center bg-[#051c45] h-[25rem] pt-3">
+        <div className="flex-1 relative flex justify-center  items-center bg-[#26395e] h-[25rem] pt-3">
         <img src={serviceGif} alt="" className="h-[24rem] relative left-[10rem] " />
           <img src={RLImage} alt="" className="h-[13rem] mr-[-2rem] relative right-[11.5rem]" />
           <img src={RICenter} alt="" className="h-[18rem] z-50 relative right-[11.5rem]" />
